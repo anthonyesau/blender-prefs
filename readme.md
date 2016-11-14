@@ -67,6 +67,9 @@ Select With: Left
 > Zoom View [Ctr Middle Mouse]: Alt Middle Mouse (☐ Ctr, ✓ Alt)
 > Zoom View [Ctr Mouse/Trackpad Pan]: Alt Mouse/Trackpad Pan (☐ Ctr, ✓ Alt)
 
+Context Toggle Values [Alt Z]: Change first value to `TEXTURED`, second to `MATERIAL`.
+
+![Toggle Material Shading Mode](assets/input-toggle-material-shading.png)
 
 
 ___
