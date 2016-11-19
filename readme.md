@@ -44,6 +44,7 @@ Documentation of changes to the standard user preferences. A `✓` next to an it
 #### View Manipulation
 
 ✓ Auto Depth
+
 ✓ Zoom To Mouse Position
 
 ☐ Manipulator
@@ -70,6 +71,7 @@ Context Toggle Values [Alt Z]: Change first value to `TEXTURED`, second to `MATE
 ![Toggle Material Shading Mode](assets/input-toggle-material-shading.png)
 
 ☐ Rotate View [Mouse/Trackpad Pan]
+
 Zoom View [Mouse/Trackpad Zoom]: Mouse/Trackpad Pan
 
 ___
@@ -77,7 +79,9 @@ ___
 ### Add-ons
 
 ✓ Node Wrangler
+
 X [Animation Nodes](https://github.com/JacquesLucke/animation_nodes)
+
 X [Sverchok](https://github.com/nortikin/sverchok)
 ___
 
