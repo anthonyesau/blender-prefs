@@ -18,11 +18,14 @@ This should be something along these lines:
 %APPDATA%\Roaming\Blender Foundation\Blender
 ```
 
-Within, sub-folders correspond to the versions of Blender that have been used on the machine: `2.77`, `2.78`, et cetera. And within each is the `config` directory should store `startup.blend` and `userpref.blend`, the files that store user preferences. So the path should be similar to `/Users/username/Library/Application Support/Blender/2.78/config/`.
+Within, sub-folders correspond to the versions of Blender that have been used on the machine: `2.77`, `2.78`, et cetera. You should focus on the folder for your current version. Within each version folder the `config` directory should contain `startup.blend` and `userpref.blend`, the files that store user preferences. The path should be similar to `/Users/username/Library/Application Support/Blender/2.78/config/`.
 
 To copy these settings to your machine, replace those files with these:
 * [startup.blend](startup.blend)
 * [userpref.blend](userpref.blend)
+
+Or for only the input settings (key configuration), open the User Preferences Window. Navigate to the Input tab, click the Import Key Configuration button, and open this file:
+* [keyconfig.py](keyconfig.py)
 
 ___
 
@@ -57,17 +60,14 @@ Select With: Left
 
 #### View2D
 
-> Zoom 2D View [Ctr Middle Mouse]: Alt Middle Mouse (☐ Ctr, ✓ Alt)
-> Zoom 2D View [Ctr Mouse/Trackpad Pan]: Alt Mouse/Trackpad Pan (☐ Ctr, ✓ Alt)
 
 #### 3D View
 
 ##### 3D View (Global)
 
-> Zoom View [Ctr Middle Mouse]: Alt Middle Mouse (☐ Ctr, ✓ Alt)
-> Zoom View [Ctr Mouse/Trackpad Pan]: Alt Mouse/Trackpad Pan (☐ Ctr, ✓ Alt)
 
-
+☐ Rotate View [Mouse/Trackpad Pan]
+Zoom View [Mouse/Trackpad Zoom]: Mouse/Trackpad Pan
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 ✓ Node Wrangler
 X [Animation Nodes](https://github.com/JacquesLucke/animation_nodes)
-
+X [Sverchok](https://github.com/nortikin/sverchok)
 ___
 
 ### Themes
