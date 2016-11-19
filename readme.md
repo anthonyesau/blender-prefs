@@ -18,7 +18,7 @@ This should be something along these lines:
 %APPDATA%\Roaming\Blender Foundation\Blender
 ```
 
-Within, sub-folders correspond to the versions of Blender that have been used on the machine: `2.77`, `2.78`, et cetera. You should focus on the folder for your current version. Within each version folder the `config` directory should contain `startup.blend` and `userpref.blend`, the files that store user preferences. The path should be similar to `/Users/username/Library/Application Support/Blender/2.78/config/`.
+Within, sub-folders correspond to the versions of Blender that have been used on the machine: `2.77`, `2.78`, et cetera. Focus on the folder for your current version. Within each version folder the `config` directory should contain `startup.blend` and `userpref.blend`, the files that store user preferences. The path should be similar to `/Users/username/Library/Application Support/Blender/2.78/config/`.
 
 To copy these settings to your machine, replace those files with these:
 * [startup.blend](startup.blend)
@@ -65,6 +65,9 @@ Select With: Left
 
 ##### 3D View (Global)
 
+Context Toggle Values [Alt Z]: Change first value to `TEXTURED`, second to `MATERIAL`.
+
+![Toggle Material Shading Mode](assets/input-toggle-material-shading.png)
 
 ☐ Rotate View [Mouse/Trackpad Pan]
 Zoom View [Mouse/Trackpad Zoom]: Mouse/Trackpad Pan
