@@ -20,16 +20,17 @@ This should be something along these lines:
 
 Within, sub-folders correspond to the versions of Blender that have been used on the machine: `2.77`, `2.78`, et cetera. Focus on the folder for your current version. Within each version folder the `config` directory should contain `startup.blend` and `userpref.blend`, the files that store user preferences. The path should be similar to `/Users/username/Library/Application Support/Blender/2.78/config/`.
 
-To copy these settings to your machine, replace those files with these:
+To copy the settings of this repository to your machine, replace those existing files on your machine with these:
 * [startup.blend](startup.blend)
 * [userpref.blend](userpref.blend)
 
-Or for only the input settings (key configuration), open the User Preferences Window. Navigate to the Input tab, click the Import Key Configuration button, and open this file:
+Or for only the input settings (key configuration), open the `User Preferences` window via `File > User Preferences...`. Navigate to the `Input` tab, click the `Import Key Configuration...` button, and import this file:
 * [keyconfig.py](keyconfig.py)
 
-___
 
-Documentation of changes to the standard user preferences. A `✓` next to an item indicates that it is now enabled (standard setting was disabled). A `☐` next to an item indicates that it is disabled (standard setting was enabled). An `X` is an option that may not always be necessary, but should be noted for possible activation. Items within brackets (`[]`) reference a standard setting; a correlating custom setting will be indicated. Settings with quotation blocks are under consideration or in a trial period.
+# Documentation of changes to the standard user preferences.
+
+A `✓` next to an item indicates that it is now enabled (standard setting was disabled). A `☐` next to an item indicates that it is disabled (standard setting was enabled). An `X` is an option that may not always be necessary, but should be noted for possible activation. Items within brackets (`[]`) reference a standard setting; a correlating custom setting will be indicated. Settings with quotation blocks are under consideration or in a trial period.
 
 ## Changes made within the User Preferences window:
 
