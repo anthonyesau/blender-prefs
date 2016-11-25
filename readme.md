@@ -6,7 +6,7 @@ To find out where Blender user preferences are stored on your machine run the fo
 bpy.utils.user_resource('CONFIG')
 ```
 
-This should be something along these lines:
+The result should be something along these lines:
 ```
 // Linux
 ~/.config/blender
@@ -66,6 +66,8 @@ Select With: Left
 #### 3D View
 
 ##### 3D View (Global)
+
+Set 3D Cursor [Action Mouse]: ✓ Cmd (Cmd Action Mouse)
 
 Context Toggle Values [Alt Z]: Change first value to `TEXTURED`, second to `MATERIAL`.
 

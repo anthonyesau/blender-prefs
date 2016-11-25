@@ -18,7 +18,7 @@ km = kc.keymaps.new('3D View', space_type='VIEW_3D', region_type='WINDOW', modal
 
 kmi = km.keymap_items.new('view3d.manipulator', 'LEFTMOUSE', 'PRESS', any=True)
 kmi_props_setattr(kmi.properties, 'release_confirm', True)
-kmi = km.keymap_items.new('view3d.cursor3d', 'ACTIONMOUSE', 'PRESS')
+kmi = km.keymap_items.new('view3d.cursor3d', 'ACTIONMOUSE', 'PRESS', oskey=True)
 kmi = km.keymap_items.new('view3d.rotate', 'MIDDLEMOUSE', 'PRESS')
 kmi = km.keymap_items.new('view3d.move', 'MIDDLEMOUSE', 'PRESS', shift=True)
 kmi = km.keymap_items.new('view3d.zoom', 'MIDDLEMOUSE', 'PRESS', ctrl=True)
