@@ -77,6 +77,8 @@ Context Toggle Values [Alt Z]: Change first value to `TEXTURED`, second to `MATE
 
 Zoom View [Mouse/Trackpad Zoom]: Mouse/Trackpad Pan
 
+Align Camera To View [Ctrl Alt Numpad 0]: ☐ Ctrl ☐ Alt ✓ Cmd (Cmd Numpad 0)
+
 ___
 
 ### Add-ons
