@@ -48,6 +48,8 @@ A `✓` next to an item indicates that it is now enabled (standard setting was d
 
 ✓ Zoom To Mouse Position
 
+✓ Auto Perspective
+
 ☐ Manipulator
 
 ___
