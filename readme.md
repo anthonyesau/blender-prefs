@@ -50,6 +50,8 @@ A `✓` next to an item indicates that it is now enabled (standard setting was d
 
 ✓ Auto Perspective
 
+Smooth View: 500
+
 ☐ Manipulator
 
 ___
@@ -102,7 +104,11 @@ ___
 
 ### System
 
+![System Preferences](assets/system-prefs.png)
+
 Images Draw Method [2D Texture]: GLSL
+✓ Regional Overlap
+
 
 ___
 
@@ -111,3 +117,5 @@ ___
 ### Info Window
 
 Render Engine [Blender Render]: Cycles Render
+
+###
