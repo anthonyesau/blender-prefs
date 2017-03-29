@@ -1,0 +1,3 @@
+[submodule "addons/filmic-blender-add-on"]
+	path = addons/filmic-blender-add-on
+	url = https://github.com/gregzaal/filmic-blender-add-on

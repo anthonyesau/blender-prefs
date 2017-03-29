@@ -92,6 +92,7 @@ ___
 X [Animation Nodes](https://github.com/JacquesLucke/animation_nodes)
 
 X [Sverchok](https://github.com/nortikin/sverchok)
+
 ___
 
 ### Themes
@@ -118,4 +119,11 @@ ___
 
 Render Engine [Blender Render]: Cycles Render
 
-###
+### Properties Window
+
+#### Scene > Color Management
+
+View [sRGB EOTF]: Filmic Log Encoding Base
+Look [None]: Base Contrast
+
+
